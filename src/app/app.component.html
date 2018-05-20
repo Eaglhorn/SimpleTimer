@@ -1,0 +1,26 @@
+<div class="container" style="text-align: center; position: center">
+
+<div  style="height: 100px; margin: 15px;">
+  <div style="font-family: cursive;color: brown; text-align: center; font-size: 25px; padding-top: 30px;">{{timeMask(tick)}}</div>
+
+</div>
+
+<button class="btn btn-success" (click)="timerStart()"> Start </button>
+
+
+<button class="btn btn-danger" (click)="timerStop()"> Stop </button>
+
+<button class="btn btn-warning" (click)="timerResetAndStop()"> Reset and stop </button>
+
+<button class="btn btn-warning" (click)="timerResetAndGo()"> Reset and go </button>
+
+
+<button class="btn btn-primary" (dblclick)="timerWait()"> Pause </button>
+
+
+<button class="btn btn-primary" (click)="timerDontWait()"> GoGo </button>
+
+
+
+
+</div>
